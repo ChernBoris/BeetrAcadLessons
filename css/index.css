@@ -9,9 +9,13 @@ html, body {
 }
 
 header, footer {
-  height: 7%;
-  width: 100%;
+  height: 7vh;
+  width: 100vw;
   background-color: #cacaca;
+}
+
+main {
+  height: auto;
 }
 
 h1 {
@@ -20,7 +24,7 @@ h1 {
 }
 
 .lessons-block {
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -40,16 +44,38 @@ h1 {
   margin-bottom: 2%;
 }
 
-.lessons-block a img {
-  width: 40%;
+.number {
+  width: 30%;
   height: auto;
 }
 
-#number {
-  width: 25%;
+.cv-pic {
+  width: 60%;
+  height: auto;
+}
+
+.light {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: green;
+}
+
+.hard {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: red;
+}
+
+.number-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lessons-block a:hover {
+  background-color: whitesmoke;
   transform: scale(1.25, 1.25);
   transition: 0.5s;
   border: 3px solid #e4183e;
